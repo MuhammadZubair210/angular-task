@@ -1,0 +1,618 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+</style > .alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #3e3b6d;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #000000ad;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaBold.woff2') format('woff2'),
+        url('../fonts/NexaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+button:focus {
+    outline: 0;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Logo area css Start */
+
+.twit-icon a {
+	color: #000;
+	font-weight: 700;
+	margin-left: ;
+}
+.twit-icon a i {
+	margin-left: ;
+	padding-left: ;
+	padding-right: 20px;
+	font-size: 20px;
+}
+.twit-logo img {
+	margin-bottom: 20px;
+}
+/* Logo area css End */
+
+
+
+
+
+
+
+/* Twitapp area css Start */
+.Twitapp {
+	padding-top: 30px;
+}
+.stever-thumb img {
+  width: 100%;
+}
+.stever-title h3 {
+	font-size: 24px;
+	color: #000;
+	margin: 0;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.stever-title span {
+	font-size: 16px;
+	color: #000000ad;
+	text-transform: capitalize;
+}
+.stever-title {
+	margin-left: 80px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.steve-icon {
+	position: absolute;
+	top: 15px;
+	left: -48px;
+}
+
+.stever-thumb {
+  height: 240px;
+}
+.stever-thumb img {
+  object-fit: cover;
+  height: 100%;
+}
+.steve-stories img {
+	max-width: 150px;
+	border-radius: 50%;
+}
+.stories-text .stever-title {
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+.happening {
+	color: #000000ad;
+	margin: 0;
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 16px;
+}
+.stever-flx {
+	display: flex;
+	justify-content: space-between;
+}
+.steve-stories img {
+	width: 150px;
+}
+.stever-right a {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #E6ECF0;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	color: #1DA0F1;
+	border-radius: 50%;
+	margin-left: 6px;
+}
+.stever-right a:last-child{
+    border: 1px solid transparent;
+    width: 0px;
+	height: 0px;
+    border-radius: 0%;
+    line-height: 0px;
+}
+.boxsed {
+	border: 1px solid #1DA0F1 !important;
+	height: 45px !important;
+	width: 90px !important;
+	border-radius: 30px !important;
+	line-height: 47px !important;
+}
+.stever-right {
+	padding-top: 15px;
+}
+.steve-stories {
+	margin-top: -69px;
+	margin-left: 10px;
+}
+.happernd-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #E6ECF0;
+	margin-bottom: 30px;
+}
+.site-left a {
+	padding-right: 12px;
+}
+.happend-button a {
+	background: #8ED0F9;
+	color: #fff;
+	padding: 12px 28px;
+	border-radius: 30px;
+}
+.happend-title textarea {
+	height: 60px;
+	border: 0;
+	color: #71828F;
+}
+.site-left {
+	margin-bottom: 15px;
+}
+.job-story-flx {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.job-story-title p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.job-story-inner a {
+	color: #000000ad;
+	padding-right: 20px;
+}
+.job-story-inner a i {
+	padding-right: 5px;
+	color: #00000063;
+}
+.job-story-inner.active a {
+	color: #1A9DE9 !important;
+}
+.follow-inner {
+	padding-right: 40px;
+}
+.follow-flx {
+	display: flex;
+	align-items: center;
+	margin-bottom: -5px;
+}
+.follow-inner p span {
+	color: #000;
+	font-weight: 700;
+}
+.tweets-wrapper {
+	margin-bottom: 20px;
+	border-bottom: 1px solid#E6ECF0;
+}
+
+.tweets-inner-button {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tweets-inner-button ul li {
+	display: inline-block;
+	margin: 0 54px;
+}
+.tweets-inner-button {
+}
+.tweets-inner-button ul li a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #657786;
+}
+.tweets-img img {
+	border-radius: 100%;
+	max-width: 50px;
+}
+.job-story-blk {
+	margin-bottom: 50px;
+}
+.tweets-content p {
+	margin: 0;
+	line-height: 26px;
+}
+.tweets-steved-flx {
+	display: flex;
+	align-items: self-start;
+}
+.tweets-content p span {
+	font-weight: 700;
+	color: #000;
+	text-transform: capitalize;
+}
+.tweets-content {
+	margin-left: 25px;
+}
+.linls-blk a {
+	color: #858688;
+	padding-right: 130px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.tweets-steve-link {
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+.tweets-steved-wrapper {
+	border-bottom: 1px solid#E6ECF0;
+	padding-top: 10px;
+}
+
+
+.tweets-inner-button ul li.active a {
+	color: #1CA0F1;
+	position: relative;
+}
+.tweets-inner-button ul li.active a::before {
+	position: absolute;
+	background: #1CA0F1;
+	width: 199px;
+	height: 2px;
+	content: "";
+	bottom: -22px;
+	left: -67px;
+}
+
+
+.Tweets-blk {
+	border-bottom: 10px solid #E6ECF0;
+}
+
+.follow-who-flx {
+	display: flex;
+	align-items: self-start;
+	border-top: 1px solid#E6ECF0;
+	padding-top: 15px;
+	border-bottom: 1px solid #E6ECF0;
+}
+.follow-who-wrap {
+	padding-top: 15px;
+}
+.user-title h3 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+	margin: 0;
+}
+.user-title p {
+	margin: 0;
+}
+.follow-user-text p a {
+	color: #1DA0F1;
+	text-decoration: none;
+}
+.follow-user-text {
+	margin-left: 25px;
+	position: relative;
+}
+.follow-user-thumb img {
+	max-width: 50px;
+	border-radius: 100%;
+}
+.flw-title h3 {
+	font-size: 20px;
+	color: #000;
+	font-weight: 700;
+}
+
+.user-btn a {
+	border: 1px solid#1DA0F1;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 10px 30px;
+	display: inline-block;
+	border-radius: 30px;
+	line-height: 1;
+	text-transform: capitalize;
+}
+.user-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.steve-last-blk {
+	padding-top: 15px;
+	border-bottom: 2px solid #E6ECF0;
+}
+.steve-last-title a {
+	font-size: 16px;
+	color: #1DA0F1;
+	font-weight: 700;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.steve-last-title {
+	padding-bottom: 15px;
+}
+.steve-last-wrap {
+	border-bottom: 10px solid#E6ECF0;
+}
+/* Twitapp area css End */
+
+
+
+
+
+
+/* Twitapp right css Start */
+
+.Twitapp-right-blk {
+	
+}
+.search-box input {
+	width: 100%;
+	background: #E6ECF0;
+	border: 0;
+	height: 45px;
+	border-radius: 30px;
+	padding: 0 60px;
+}
+.search-box input {
+	width: 100%;
+	background: #E6ECF0;
+	border: 0;
+	height: 45px;
+	border-radius: 30px;
+	padding: 0 60px;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #000;
+}
+.search-box {
+	position: relative;
+	margin-bottom: 20px;
+}
+.search-buttons {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20px;
+}
+.search-buttons a {
+	color: #0000004f;
+}
+.twitapp-right-box {
+	background: #F5F8FA;
+	border-radius: 8px;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.right-inner-title {
+	border-bottom: 1px solid#E6ECF0;
+	padding-top: 15px;
+}
+.right-inner-title h3 {
+	font-size: 18px;
+	color: #000;
+	font-weight: 700;
+}
+.right-flx {
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+}
+.right-inner-text h5 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+	margin: 0;
+	line-height: 26px;
+}
+.right-inner-text p {
+	margin: 0;
+}
+.right-inner-text.text-color {
+	color: #000;
+	font-weight: 700;
+}
+.gray {
+	color: #8695A1;
+	font-weight: 500;
+}
+.right-inner-text.text-color a {
+	color: #8695A1;
+	font-size: 15px;
+	font-weight: 500;
+}
+.right-inner-text.rash-color a {
+	color: #000;
+	font-weight: 600;
+	font-size: 16px;
+}
+.right-inner-text.rash-color a span {
+	color: #8695A1;
+	font-weight: 600;
+	font-size: 16px;
+}
+.right-inner-img img {
+	max-width: 70px;
+}
+.treding-inner h5 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.tred-info p {
+	margin: 0;
+}
+.tred-info p a {
+	color: #1CA0F1;
+}
+.tred-info span {
+	font-weight: 600;
+	color: #000;
+}
+.trending-wrap {
+	padding: 15px;
+	border: 1px solid#ddd;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+.tred-info {
+	margin-bottom: 20px;
+}
+.pro-tet h4 {
+	font-size: 18px;
+	margin: 0;
+	color: #000;
+	font-weight: 500;
+}
+
+.pro-flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pro-member {
+	padding: 15px;
+	background: #fff;
+	box-shadow: 0 0 5px 2px #00000029;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.service-wrap {
+	padding: 15px;
+	text-align: center;
+	border: 1px solid#ddd;
+	border-radius: 8px;
+}
+
+.service-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.service-thumb {
+	border: 1px solid#ddd;
+	width: 44%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+.service-thumb img {
+	margin-bottom: 35px;
+}
+.service-thumb h5 {
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+.service-thumb a {
+  background: #1CA0F1;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 11px 30px;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 30px;
+}
+.service-info {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+}
+.servece-inner h4 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+}
+/* Twitapp right css End */
+
+
+
+
+
+
+
+
+
+
+
+

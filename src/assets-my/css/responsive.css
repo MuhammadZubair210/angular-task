@@ -1,0 +1,413 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+  
+.tweets-inner-button ul li {
+	margin: 0 23px;
+} 
+ .tweets-inner-button ul li {
+	margin: 0 23px;
+}
+ .linls-blk a {
+	padding-right: 85px;
+	font-size: 23px;
+}   
+    
+    
+    
+    
+    
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.tweets-inner-button ul li a {
+	font-size: 16px;
+}
+ .tweets-inner-button ul li {
+	margin: 0 21px;
+}   
+ .tweets-inner-button ul li a {
+	font-size: 16px;
+}   
+ .happend-title textarea {
+	width: 200px;
+}   
+ .happend-button a {
+	padding: 10px 28px;
+}   
+ .tweets-inner-button ul li.active a::before {
+	width: 142px;
+	height: 2px;
+	left: 0;
+}   
+ .tweets-content p {
+	font-size: 14px;
+	line-height: 24px;
+}   
+.folow-who-blk p {
+	font-size: 14px;
+	line-height: 24px;
+}
+ .linls-blk a {
+	padding-right: 130px;
+	font-size: 16px;
+}   
+.linls-blk a {
+	padding-right: 45px;
+	font-size: 16px;
+}
+ .pro-tet h4 {
+	font-size: 16px;
+}   
+ .right-inner-text p {
+	font-size: 14px;
+}   
+ .right-inner-text h5 {
+	font-size: 14px;
+	line-height: 24px;
+}   
+ .right-inner-img img {
+	max-width: 55px;
+} 
+.stever-title h3 {
+	font-size: 22px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+ .tweets-inner-button ul li a {
+	font-size: 14px;
+}
+.stever-right a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 2px;
+}    
+.tweets-inner-button ul li {
+	margin: 0 12px;
+}    
+.tweets-inner-button ul li.active a::before {
+	width: 110px;
+	height: 2px;
+	bottom: -22px;
+	left: 0;
+}    
+ .tweets-content {
+	margin-left: 10px;
+} 
+ .tweets-content p {
+	line-height: 26px;
+	font-size: 14px;
+	line-height: 24px;
+}   
+ .linls-blk a {
+	color: #858688;
+	padding-right: 130px;
+	font-size: 14px;
+	text-decoration: none;
+}   
+.linls-blk a {
+	color: #858688;
+	padding-right: 40px;
+	font-size: 15px;
+	text-decoration: none;
+}    
+ .user-btn a {
+	font-size: 14px;
+	padding: 10px 25px;
+	line-height: 1;
+}   
+ .follow-who-wrap p {
+	font-size: 14px;
+	line-height: 24px;
+}   
+.job-story-inner a {
+	padding-right: 6px;
+	font-size: 13px;
+}
+ .follow-inner {
+	padding-right: 40px;
+	font-size: 14px;
+}   
+ .job-story-blk p {
+	font-size: 14px;
+}   
+ .stever-title h3 {
+	font-size: 16px;
+}   
+.steve-stories img {
+	max-width: 100px;
+	margin-bottom: 12px;
+}    
+  .boxsed {
+	height: 35px !important;
+	width: 90px !important;
+	line-height: 35px !important;
+	font-size: 14px;
+}  
+.flw-title h3 {
+	font-size: 16px;
+}
+.right-inner-title h3 {
+	font-size: 16px;
+}    
+ .right-inner-text p {
+	font-size: 14px;
+}   
+ .right-inner-text h5 {
+	font-size: 14px;
+	line-height: 24px;
+}   
+.right-inner-img img {
+	max-width: 40px;
+}    
+ .pro-tet h4 {
+	font-size: 14px;
+}   
+ .service-thumb a {
+	font-size: 12px;
+	font-weight: 400;
+	padding: 8px 17px;
+	line-height: 1;
+}   
+ .service-thumb img {
+	margin-bottom: 15px;
+}   
+ .service-thumb h5 {
+	font-size: 14px;
+	margin-bottom: 15px;
+}   
+    
+    
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.twit-logo {
+	text-align: center;
+}
+.twit-logo img {
+	margin-bottom: 10px;
+}    
+ 
+.steve-icon {
+	position: absolute;
+	top: 21px;
+	left: 0;
+}    
+.twit-logo {
+	text-align: center;
+	margin-bottom: 20px;
+}    
+    
+.stever-title {
+	margin-left: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	max-width: 312px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.steve-stories img {
+	width: 110px;
+	margin-bottom: 10px;
+}
+ .tweets-inner-button ul li a {
+	font-size: 16px;
+}   
+.stever-flx {
+	display: block;
+}
+.stever-right {
+	padding-top: 15px;
+	text-align: center;
+} 
+ .stever-right {
+	margin-bottom: 20px;
+}   
+    
+.happernd-inner {
+	display: block;
+} 
+  
+.happernd-inner {
+	border-bottom: 2px solid transparent;
+	
+} 
+.happend-button a {
+	padding: 7px 28px;
+	border-radius: 30px;
+}   
+ .happend-title {
+	margin-bottom: 35px;
+	text-align: center;
+}   
+.happend-title textarea {
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+.boxsed {
+	height: 35px !important;
+	width: 90px !important;
+	line-height: 35px !important;
+}   
+.happend-button {
+	text-align: center;
+}    
+ .job-story-flx {
+	display: block;
+	align-items: center;
+	margin-bottom: 17px;
+}   
+ .job-story-inner a {
+	padding-right: 0;
+}   
+.follow-inner {
+	padding-right: 0;
+}    
+ .follow-flx {
+	display: block;
+	align-items: center;
+	margin-bottom: 0;
+}
+.job-story-blk {
+	margin-bottom: 15px;
+	text-align: center;
+}   
+.tweets-inner-button ul li.active a::before {
+	display: none;
+}   
+ .tweets-inner-button ul li {
+	display: block;
+}   
+ .tweets-steved-flx {
+	display: block;
+	align-items: self-start;
+}   
+ .tweets-img img {
+	margin-bottom: 10px;
+}   
+  .tweets-content {
+	margin-left: 0;
+}
+.tweets-content p {
+	margin: 0;
+	line-height: 26px;
+	font-size: 14px;
+	line-height: 24px;
+}
+ .search-box input {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}   
+  .search-buttons {
+	padding-top: 22px;
+}  
+    
+    
+ .linls-blk a {
+	padding-right: 20px;
+	font-size: 18px;
+	text-decoration: none;
+}   
+ .follow-user-text {
+	margin-left: 0;
+}   
+.follow-user-text p {
+	font-size: 14px;
+	line-height: 24px;
+}    
+.follow-who-flx {
+	display: block;
+}    
+.user-btn a {
+	font-size: 14px;
+	padding: 8px 20px;
+}
+.follow-user-thumb img {
+	max-width: 50px;
+	margin-bottom: 10px;
+}    
+  .tweets-steved-wrapper {
+	border-bottom: 1px solid transparent;
+	padding-top: 10px;
+}  
+.search-box {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}   
+ .right-inner-text p {
+	font-size: 14px;
+}   
+ .right-inner-text h5 {
+	font-size: 14px;
+	line-height: 24px;
+}   
+ .right-inner-text.text-color a {
+	font-size: 14px;
+}   
+  .treding-inner h5 {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+ .pro-tet h4 {
+	font-size: 14px;
+}   
+ .service-thumb img {
+	margin-bottom: 10px;
+}   
+    
+.service-thumb h5 {
+	font-size: 14px;
+	margin-bottom: 15px;
+}    
+ .stever-title {
+	margin-left: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	max-width: 230px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}   
+ .steve-icon {
+	top: 31px;
+	left: 0;
+} 
+ .stever-thumb {
+	height: 160px;
+}   
+    
+    
+    
+    
+}
+    
+
+
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    
+ 
+}

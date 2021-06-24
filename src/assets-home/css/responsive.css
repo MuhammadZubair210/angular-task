@@ -1,0 +1,571 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .search-bar-blk {
+        max-width: 780px;
+    }
+    .header-menu a {
+        padding: 0 23px;
+    }
+}
+
+/* LG Device :992px. */
+
+@media (min-width: 320px) and (max-width: 1360px) {
+    .header-menu a {
+        padding: 0 18px;
+        font-size: 18px;
+    }
+    .header-left .dropdown-toggle {
+        margin-left: 30px;
+    }
+    .logo-main a img {
+        max-width: 68px;
+    }
+    .head-right-blk a {
+        font-size: 27px;
+        margin-left: 35px;
+    }
+    .user-drop-down .dropdown-menu.show {
+        top: 80px !important;
+        left: -186px !important;
+    }
+    .bottom-menu li a {
+        font-size: 19px;
+        padding: 26px 14px;
+    }
+    .interest-drodown li a {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .search-top a {
+        font-size: 88px;
+    }
+}
+
+/* LG Device :992px. */
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .header-menu a {
+        padding: 0 13px;
+        font-size: 17px;
+    }
+    .header-left .dropdown-toggle {
+        margin-left: 27px;
+    }
+    .head-right-blk a {
+        font-size: 25px;
+        margin-left: 32px;
+    }
+    .head-right-blk a::before {
+        width: 8px;
+        height: 8px;
+    }
+    .user-drop-down .dropdown-menu::after {
+        top: -15px;
+        right: 26px;
+    }
+    .dropdown-profile-img img {
+        max-width: 65px;
+    }
+    .user-dropdown-menu li {
+        padding: 9px 0;
+    }
+    .user-dropdown-menu li span {
+        width: 31px;
+    }
+    .user-drop-down .dropdown-menu.show {
+        top: 70px !important;
+        left: -168px !important;
+        width: 250px;
+    }
+    .bottom-menu li a {
+        font-size: 16px;
+        padding: 23px 13px;
+        height: 72px;
+    }
+    .interest-drodown li a {
+        font-size: 14px;
+        padding: 5px 0;
+        height: auto;
+    }
+    .bottom-menu li a span img {
+        max-width: 39px;
+        max-height: 37px;
+    }
+    .interest-drodown .dropdown-menu.show {
+        left: -55px !important;
+        width: 275px;
+        bottom: 89px;
+    }
+    .header-bar-section {
+        padding: 10px 30px;
+        padding-right: 40px;
+    }
+}
+
+/* MD Device :768px. */
+
+@media (min-width: 320px) and (max-width: 1100px) {
+    .search-top a {
+        font-size: 80px;
+    }
+    .search-dropdown a {
+        font-size: 17px;
+    }
+    .bottom-menu li a::before {
+        height: 8px;
+    }
+    .bottom-menu li a {
+        font-size: 16px;
+        padding: 22px 13px;
+        height: 70px;
+    }
+    .interest-drodown li a {
+        font-size: 14px;
+        padding: 5px 0;
+        height: auto;
+    }
+    .header-menu a {
+        font-size: 15px;
+    }
+    .header-left .dropdown-toggle {
+        font-size: 17px;
+        margin-left: 26px;
+    }
+    .logo-main a img {
+        max-width: 64px;
+    }
+    .interest-drodown .dropdown-menu.show {
+        left: -50px !important;
+        width: 260px;
+        bottom: 88px;
+    }
+    .interest-drodown .dropdown-menu.show .arrow {
+        left: 125px;
+    }
+    .interest-drodown .dropdown-menu.show .arr {
+        left: 122px;
+    }
+    .interest-drop-search {
+        height: 35px;
+    }
+    .short-url { 
+        right: 20px;
+        bottom: -62px;
+        max-width: 140px;
+    }
+}
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width:991px) {
+    .header-bar-section .header-menu {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+    }
+    .header-bar-section {
+        padding: 9px 21px;
+        padding-right: 25px;
+    }
+    .header-left .dropdown-toggle {
+        font-size: 16px;
+        margin-left: 22px;
+    }
+    .head-right-blk a {
+        font-size: 23px;
+        margin-left: 30px;
+    }
+    .dropdown-profile {
+        padding: 13px;
+    }
+    .dropdown-profile-img img {
+        max-width: 58px;
+    }
+    .dropdown-profile p {
+        font-size: 17px;
+        margin-bottom: -1px;
+        margin-top: 5px;
+    }
+    .user-drop-down .dropdown-menu a {
+        font-size: 15px;
+    }
+    .user-dropdown-menu li {
+        padding: 8px 0;
+    }
+    .user-dropdown-menu li span {
+        width: 28px;
+        margin-right: 13px;
+    }
+    .user-drop-down .dropdown-menu.show {
+        top: 67px !important;
+        left: -150px !important;
+        width: 230px;
+    }
+    .bottom-menu li a span img {
+        max-width: 34px;
+        max-height: 32px;
+    }
+    .bottom-menu li a {
+        font-size: 14px;
+        padding: 20px 12px;
+        height: 60px;
+    }
+    .interest-drodown li a {
+        font-size: 14px;
+        padding: 5px 0;
+        height: auto;
+    }
+    .bottom-menu-area {
+        padding: 0 35px;
+    }
+    .interest-drodown .dropdown-menu.show {
+        left: -64px !important;
+        width: 260px;
+        bottom: 79px;
+    }
+    .interest-drodown li a {
+        font-size: 13px;
+        padding: 4px 0;
+        height: auto;
+    }
+    .search-bar-blk {
+        max-width: 735px;
+        height: 50px;
+        margin-top: 41px;
+    }
+    .src-icon {
+        top: 3px;
+        right: 15px;
+        width: 28px;
+    }
+    .placeholder {
+        top: 0px;
+        left: 31px;
+        font-size: 22px;
+    }
+    .search-left-blk input {
+        font-size: 17px;
+        padding-left: 30px;
+    }
+    .search-top a {
+        font-size: 70px;
+    }
+    .search-drop-down a {
+        font-size: 18px;
+    }
+    .search-right-blk {
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+    .short-url {
+        right: 20px;
+        bottom: -55px;
+        max-width: 128px;
+    }
+    .search-top a {
+        font-size: 60px;
+    }
+    .search-bar-blk {
+        max-width: 550px;
+        height: 50px;
+        margin-top: 35px;
+    }
+    .search-area {
+        padding-top: 80px;
+    }
+    .search-left-blk {
+        flex: 0 0 74%;
+    }
+    .search-right-blk {
+        padding-left: 20px;
+        flex: 0 0 27%;
+    }
+    .search-drop-down a {
+        font-size: 16px;
+    }
+    .logo-main a img {
+        max-width: 60px;
+    }
+    .head-right-blk a {
+        font-size: 21px;
+        margin-left: 27px;
+    }
+    .menu-open {
+        font-size: 21px;
+        margin-left: 23px;
+    }
+    .dropdown-profile {
+        padding: 12px;
+    }
+    .user-drop-down .dropdown-menu.show {
+        top: 60px !important;
+        left: -133px !important;
+        width: 210px;
+    }
+    .user-drop-down .dropdown-menu::after {
+        top: -13px;
+        right: 26px;
+    }
+    .dropdown-profile-img img {
+        max-width: 52px;
+    }
+    .dropdown-profile p {
+        font-size: 16px;
+        margin-bottom: -1px;
+        margin-top: 4px;
+    }
+    .user-drop-down .dropdown-menu a {
+        font-size: 14px;
+    }
+    .user-dropdown-menu li span {
+        width: 25px;
+        margin-right: 11px;
+    }
+    .user-dropdown-menu li {
+        padding: 7px 0;
+    }
+    .offcanvas-area {
+        width: 260px;
+    }
+    .offcanvas-area .header-menu ul li a {
+        font-size: 17px;
+    }
+    .interest-drodown .dropdown-menu.show {
+        left: -65px !important;
+        width: 233px;
+        bottom: 90px;
+    }
+    .interest-drop-search {
+        height: 33px;
+        margin-bottom: 3px;
+    }
+    .interest-drop-search span {
+        width: 20px;
+        top: 5px;
+    }
+    .bottom-menu-area {
+        padding: 0 5px;
+    }
+    .bottom-menu li a span img {
+        max-width: 29px;
+        max-height: 25px;
+    }
+    .bottom-menu li a span {
+        margin-right: 1px;
+        display: block;
+        text-align: center;
+    }
+    .search-left-blk input {
+	font-size: 17px; 
+}
+    .bottom-menu li a::before {
+        height: 6px;
+    }
+    .bottom-menu li a {
+        font-size: 14px;
+        padding: 19px 13px;
+        height: 75px;
+    }
+    .interest-drodown li a {
+        font-size: 13px;
+        padding: 4px 0;
+        height: auto;
+    }
+    .interest-drodown .dropdown-menu.show .arrow {
+        left: 113px;
+    }
+    .interest-drodown .dropdown-menu.show .arr {
+        left: 110px;
+    }
+    .search-dropdown {
+        width: 160px;
+        top: 70px;
+        left: -39px;
+    }
+    .search-dropdown a {
+        font-size: 16px;
+        padding: 6px;
+        padding-left: 24px;
+    }
+}
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .short-url {
+        right: -5px;
+        bottom: -47px;
+        max-width: 107px;
+    }
+    .logo-main a img {
+        max-width: 52px;
+    }
+    .header-bar-section {
+        padding: 7px 12px;
+        padding-right: 18px;
+    }
+    .menu-open {
+        font-size: 20px;
+        margin-left: 19px;
+    }
+    .head-right-blk a {
+        font-size: 19px;
+        margin-left: 21px;
+    }
+    .header-left .dropdown-toggle {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .search-top a {
+        font-size: 48px;
+    }
+    .search-bar-blk {
+        max-width: 500px;
+        height: 49px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .search-area {
+        padding: 0 20px;
+        padding-top: 70px;
+    }
+    .search-left-blk input {
+        font-size: 15px;
+        padding-left: 16px;
+    }
+    .placeholder {
+        top: 5px;
+        left: 18px;
+        font-size: 15px;
+    }
+    .search-left-blk {
+        flex: 0 0 70%;
+    }
+    .search-drop-down a {
+        font-size: 16px;
+    }
+
+    .search-right-blk {
+        padding-left: 15px;
+        flex: 0 0 30%;
+    }
+    .src-icon {
+        top: 3px;
+        right: 12px;
+        width: 26px;
+    }
+    .search-dropdown a {
+        font-size: 15px;
+        padding: 6px;
+        padding-left: 21px;
+    }
+
+    .dropdown-profile-img img {
+        max-width: 47px;
+    }
+    .user-drop-down .dropdown-menu.show {
+        top: 54px !important;
+        left: -132px !important;
+        width: 200px;
+    }
+    .user-drop-down .dropdown-menu a {
+        font-size: 13px;
+    }
+    .user-dropdown-menu li span {
+        width: 23px;
+        margin-right: 10px;
+    }
+    .user-dropdown-menu li {
+        padding: 6px 0;
+    }
+    .bottom-menu li a::before {
+        height: 5px;
+    }
+    .bottom-menu li a {
+        font-size: 12px;
+        padding: 16px 0px;
+        height: 70px;
+        margin: 0 6px;
+        text-align: center;
+    }
+    .interest-drodown li a {
+        font-size: 13px;
+        padding: 4px 0;
+        height: auto;
+        text-align: left;
+    }
+
+    .interest-drodown .dropdown-menu.show {
+        left: -71px !important;
+        width: 225px;
+        bottom: 86px;
+    }
+    .interest-drodown li a {
+        font-size: 12px;
+        padding: 4px 0; 
+    }
+
+    .interest-drodown li span {
+        width: 26px;
+    }
+    .interest-drop-search input { 
+        font-size: 14px; 
+    }
+    .interest-drodown .dropdown-menu.show .arrow {
+        left: 105px;
+    }
+    .interest-drodown .dropdown-menu.show .arr {
+        left: 102px;
+    }
+
+    .search-left-blk {
+        flex: 0 0 69%;
+    }
+
+    .src-icon {
+        top: 3px;
+        right: -9px;
+        width: 20px;
+    }
+    .search-drop-down a {
+        font-size: 15px;
+    }
+    .search-drop-down::after { 
+        margin-left: 11px; 
+    }
+    .search-drop-down a {
+        font-size: 12px;
+    }
+    .search-right-blk {
+        padding-left: 11px;
+        flex: 0 0 26%;
+    }
+    .search-dropdown a {
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .search-dropdown {
+        width: 137px;
+        top: 70px;
+        left: -39px;
+    }
+    .offcanvas-area .header-menu ul li a {
+        font-size: 16px;
+    }
+    .menu-close { 
+        font-size: 22px; 
+    }
+    .offcanvas-area {
+        width: 240px;
+    }
+    .search-dropdown {
+        width: 130px;
+        top: 69px;
+        left: -45px;
+    }
+}
