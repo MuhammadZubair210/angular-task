@@ -10,10 +10,9 @@ export class SignupService {
 
   signup(obj: any) {
     this.http
-      .post(
+      .get(
         `http://affizia.com/community.create.php`,
-        {},
-        // { responseType: 'text' }
+        { responseType: 'text' }
       )
       .subscribe((response) => {
         this.store.dispatch({
