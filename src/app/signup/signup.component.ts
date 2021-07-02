@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Store } from '@ngrx/store';
+import { SignupService } from '../signup.service';
 
 @Component({
   selector: 'app-signup',
@@ -10,16 +13,26 @@ export class SignupComponent implements OnInit {
   public email = '';
   public password = '';
 
-  constructor() {}
+  constructor(
+    public router: Router,
+    public loginService: SignupService,
+    public store: Store
+  ) {}
 
   submit() {
     let obj = {
-      email: this.email,
       username: this.username,
+      email: this.email,
       password: this.password,
     };
-    console.log('---', obj);
+    this.loginService.signup(obj);
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.store.pipe().subscribe((s: any) => {
+      if (s.signup.signedUp) {
+        this.router.navigate(['/login']);
+      }
+    });
+  }
 }

@@ -7,20 +7,26 @@ import { PostsComponent } from './posts/posts.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { FormsModule } from '@angular/forms';
+import { StoreModule } from '@ngrx/store';
+import { loginReducer } from '../store/reducers/login.reducer';
+import { postsReducer } from '../store/reducers/posts.reducer';
+import { signupReducer } from '../store/reducers/signup.reducer';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PostsComponent,
-    LoginComponent,
-    SignupComponent
-  ],
+  declarations: [AppComponent, PostsComponent, LoginComponent, SignupComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    StoreModule.forRoot({
+      login: loginReducer,
+      signup: signupReducer,
+      posts: postsReducer,
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

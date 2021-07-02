@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import data from '../../data/post.json';
+import { Router } from '@angular/router';
+import { PostsService } from '../posts.service';
+import { Store } from '@ngrx/store';
 @Component({
   selector: 'app-posts',
   templateUrl: './posts.component.html',
@@ -20,11 +23,26 @@ import data from '../../data/post.json';
 })
 export class PostsComponent implements OnInit {
   public posts: any = [];
-  constructor() {
+
+  public email = '';
+  public password = '';
+
+  constructor(
+    public router: Router,
+    public postsService: PostsService,
+    public store: Store
+  ) {
+    // Please comment this line when data is comming from api
     if (data.posts && data.posts.length > 0) {
       this.posts = data.posts;
     }
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.postsService.getAll();
+    // Here is how you get the response when api is called for posts
+    this.store.pipe().subscribe((s: any) => {
+      console.log(s);
+    });
+  }
 }

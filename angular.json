@@ -71,7 +71,8 @@
               "browserTarget": "Twitapps:build:production"
             },
             "development": {
-              "browserTarget": "Twitapps:build:development"
+              "browserTarget": "Twitapps:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
